@@ -1,59 +1,61 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-image: url('Hero-bg.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #ffffff;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 60px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
 .logo {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  color: #ffffff;
+  color: #4a4aff;
 }
-
 .signup-btn {
   text-decoration: none;
   background-color: #4a4aff;
-  color: white;
-  padding: 10px 22px;
-  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
   font-weight: 600;
-  font-size: 14px;
 }
 .banner {
   text-align: center;
-  padding: 120px 20px;
+  padding: 120px 30px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-
-.banner h1 {
-  font-size: 32px;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.4;
+.heading {
+  font-size: 34px;
+  font-weight: 700;
+  color: #4a4aff;
+  margin-bottom: 20px;
+}
+.tagline {
+  font-size: 18px;
+  color: #e0e0e0;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.5;
 }
 .focus-btn {
   display: inline-block;
-  margin-top: 25px;
-  padding: 14px 28px;
   background-color: #4a4aff;
-  border-radius: 5px;
-  color: white;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
