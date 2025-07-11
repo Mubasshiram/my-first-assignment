@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 25px 60px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(242, 238, 238, 0.5);
 }
 .logo {
   font-size: 24px;
@@ -35,7 +35,7 @@ body {
 .banner {
   text-align: center;
   padding: 120px 30px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(240, 233, 233, 0.4);
 }
 .heading {
   font-size: 34px;
@@ -45,7 +45,7 @@ body {
 }
 .tagline {
   font-size: 18px;
-  color: #e0e0e0;
+  color: #0f0e0e;
   max-width: 700px;
   margin: 0 auto 30px auto;
   line-height: 1.5;
